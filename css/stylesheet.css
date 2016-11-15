@@ -1,0 +1,139 @@
+html, body, wrapper, header, h1, h2, nav, footer {
+    margin: 0;
+    padding: 0;}
+
+body {
+    font-family: sans-serif;
+    margin: 5px auto;
+    padding: 10px;
+    background: rgba(218,231,174,0.6);}
+
+#wrapper {
+    width: 960px;
+    margin: 0px auto;
+    background: rgba(255,255,255,0.8);}
+
+/*header*/
+.header {
+    height: 120px;
+    font-family: 'Michroma', sans-serif;}
+
+h1 {
+    width: 960px;
+    height: 55px;
+    margin: 1px auto;
+    font-size: 225%;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    line-height: 60px;
+    text-align: center;
+    background: rgba(175,218,235,0.7);}
+
+h2 {
+    width: 960px;
+    height: 55px;
+    margin: 1px auto;
+    font-size: 150%;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    line-height: 60px;
+    text-align: center;
+    background: rgba(198,164,136,0.9);}
+/*header*/
+
+/*navbar */
+nav ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0px;
+    overflow: hidden;}
+
+nav li {
+    float: right;}
+
+nav li a {
+    color: #000000;
+    width: 150px;
+    height: 20px;
+    display: inline-block;
+    padding: 5px;
+    text-align: center;
+    font-size: 80%;
+    text-transform: uppercase;
+    text-decoration: none;}
+
+li a:hover {
+    color: #ffffff;
+    background-color: #0b0f63;}
+/*navbar*/
+
+/*dangers/effests*/
+.section1 {
+    width: 300px;
+    float: left;
+    margin: 10px;}
+
+.section2 {
+    width: 300px;
+    float: left;
+    margin: 10px;}
+
+.section3 {
+    width: 300px;
+    float: left;
+    margin: 10px;}
+
+.img1, .img2, .img3 {
+    width: 300px;}
+/*dangers/effests*/
+
+p {
+    margin: 10px;
+    padding: 5px;
+    font-size: 90%;
+    line-height: 1.8em;}
+
+.section4, .section6 {
+    width: 750px;
+    float: left;
+    margin: 20px 0px;}
+
+.section5, .section7 {
+    width: 150px;
+    float: left;
+    margin: 15px;}
+
+.section5 a, .section7 a {
+    text-decoration: none;
+    text-align: right;
+    display: block;
+    padding: 10px;
+    color: #4d2600;}
+    
+.section5 a:hover, .section7 a:hover {
+    color: #669900;
+    background-color: #ffffff;}
+
+.img4, .img5, .img6 {
+    margin: 0px 10px 0px 0px;}
+
+h3 {
+    margin: 10px 10px 10px 20px;
+    text-transform: uppercase;}
+
+/*back to top*/
+a {
+    text-decoration: none;
+    color: #669900;
+    font-size: 80%;
+    float: right;
+    margin-right: 20px;
+    clear: both;}
+/*back to top*/
+
+/*footer*/
+footer {
+    clear: both;
+    font-size: 75%;
+    padding: 10px 0px 10px 20px;}
+/*footer*/
